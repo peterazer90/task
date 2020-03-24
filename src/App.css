@@ -1,0 +1,21 @@
+.main-container {
+    height: calc(100% - 54px);
+}
+
+.search-dropdown {
+    max-height: 400px;
+}
+
+.active-like, .like-btn:hover {
+    color: #dc3545 !important;
+}
+
+.active-retweet, .retweet-btn:hover {
+    color: #2de055 !important;
+}
+
+@media (max-width: 991px) {
+    .timeline {
+        overflow: visible !important;
+    }
+}
